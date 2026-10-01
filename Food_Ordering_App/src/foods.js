@@ -1,0 +1,68 @@
+const foods = [
+  {
+    id: 1,
+    name: "Margherita Pizza",
+    category: "Italian",
+    price: 249,
+    emoji: "🍕",
+    available: true,
+  },
+  {
+    id: 2,
+    name: "Cheese Burger",
+    category: "Fast Food",
+    price: 179,
+    emoji: "🍔",
+    available: true,
+  },
+  {
+    id: 3,
+    name: "Chicken Biryani",
+    category: "Indian",
+    price: 229,
+    emoji: "🍛",
+    available: true,
+  },
+  {
+    id: 4,
+    name: "Sushi",
+    category: "Japanese",
+    price: 399,
+    emoji: "🍣",
+    available: false,
+  },
+  {
+    id: 5,
+    name: "Pasta",
+    category: "Italian",
+    price: 199,
+    emoji: "🍝",
+    available: true,
+  },
+  {
+    id: 6,
+    name: "Tacos",
+    category: "Mexican",
+    price: 159,
+    emoji: "🌮",
+    available: false,
+  },
+  {
+    id: 7,
+    name: "French Fries",
+    category: "Fast Food",
+    price: 99,
+    emoji: "🍟",
+    available: true,
+  },
+  {
+    id: 8,
+    name: "Ice Cream",
+    category: "Dessert",
+    price: 129,
+    emoji: "🍦",
+    available: true,
+  },
+];
+
+export default foods;

@@ -1,0 +1,60 @@
+const clubs = [
+  {
+    id: 1,
+    name: "Coding Club",
+    category: "Technology",
+    coordinator: "Chirayu Poddar",
+    members: 45,
+    emoji: "💻",
+  },
+  {
+    id: 2,
+    name: "Photography Club",
+    category: "Arts",
+    coordinator: "Ansh Sharma",
+    members: 32,
+    emoji: "📸",
+  },
+  {
+    id: 3,
+    name: "Music Club",
+    category: "Cultural",
+    coordinator: "Prateek Deep Das",
+    members: 28,
+    emoji: "🎵",
+  },
+  {
+    id: 4,
+    name: "Robotics Club",
+    category: "Technology",
+    coordinator: "Krishna Negi",
+    members: 38,
+    emoji: "🤖",
+  },
+  {
+    id: 5,
+    name: "Drama Club",
+    category: "Cultural",
+    coordinator: "Prasham Jain",
+    members: 24,
+    emoji: "🎭",
+  },
+  {
+    id: 6,
+    name: "Sports Club",
+    category: "Sports",
+    coordinator: "Saifuddin Malek",
+    members: 50,
+    emoji: "⚽",
+  },
+  {
+    id: 7,
+    name: "Marketing Club",
+    category: "Business",
+    coordinator: "Harsh Bhaiya",
+    members: 35,
+    emoji: "📢",
+  },
+];
+
+export default clubs;
