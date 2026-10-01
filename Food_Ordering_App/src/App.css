@@ -82,25 +82,22 @@ body {
 
 .food-card button {
   width: 100%;
-  padding: 11px;
-
+  padding: 12px;
+  background: #222;
+  color: white;
   border: none;
   border-radius: 6px;
-
-  background-color: #222;
-  color: white;
-
-  font-size: 15px;
   cursor: pointer;
+  transition: 0.2s;
 }
 
-.food-card button:hover:not(:disabled) {
-  background-color: #444;
+.food-card button:hover {
+  background: #444;
+  transform: translateY(-2px);
 }
 
-.food-card button:disabled {
-  background-color: #aaa;
-  cursor: not-allowed;
+.food-card button:active {
+  transform: scale(0.97);
 }
 
 @media (max-width: 900px) {
@@ -120,4 +117,90 @@ body {
     grid-template-columns: 1fr;
     padding: 20px;
   }
+}
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.add-food-button {
+  background: white;
+  color: #222;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-food-button:hover {
+  background: #eeeeee;
+}
+
+.food-form {
+  width: 90%;
+  max-width: 500px;
+  margin: 25px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.food-form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.food-form input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.food-form button {
+  width: 100%;
+  padding: 12px;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.food-form button:hover {
+  background: #444;
+}
+.add-food-button {
+  background: white;
+  color: #222;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.add-food-button:hover {
+  background: #444;
+  color: white;
+  transform: translateY(-2px);
+}
+.add-food-button:active {
+  transform: scale(0.95);
+}
+.food-form button:hover {
+  background: #444;
+  transform: translateY(-2px);
+}
+
+.food-form button:active {
+  transform: scale(0.97);
 }

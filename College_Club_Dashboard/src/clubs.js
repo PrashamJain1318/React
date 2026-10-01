@@ -6,6 +6,7 @@ const clubs = [
     coordinator: "Chirayu Poddar",
     members: 45,
     emoji: "💻",
+    year: "2nd Year",
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const clubs = [
     coordinator: "Ansh Sharma",
     members: 32,
     emoji: "📸",
+    year: "1st Year",
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const clubs = [
     coordinator: "Prateek Deep Das",
     members: 28,
     emoji: "🎵",
+    year: "3rd Year",
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ const clubs = [
     coordinator: "Krishna Negi",
     members: 38,
     emoji: "🤖",
+    year: "4th Year",
   },
   {
     id: 5,
@@ -38,6 +42,7 @@ const clubs = [
     coordinator: "Prasham Jain",
     members: 24,
     emoji: "🎭",
+    year: "2nd Year",
   },
   {
     id: 6,
@@ -46,6 +51,7 @@ const clubs = [
     coordinator: "Saifuddin Malek",
     members: 50,
     emoji: "⚽",
+    year: "1st Year",
   },
   {
     id: 7,
@@ -54,6 +60,7 @@ const clubs = [
     coordinator: "Harsh Bhaiya",
     members: 35,
     emoji: "📢",
+    year: "3rd Year",
   },
 ];
 
